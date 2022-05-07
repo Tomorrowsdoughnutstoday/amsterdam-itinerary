@@ -44,6 +44,12 @@ button {
   border-radius: 14px;
 }
 
+@media only screen and (max-width: 580px) {
+  .info-container {
+    width: 80%;
+  }
+}
+
 .info-item {
   width: 80%;
   margin: 5% auto 0 auto;
@@ -58,9 +64,9 @@ button {
   font-size: 1.2em;
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 580px) {
   .info-container {
-    width: auto;
+    width: 80%;
   }
 }
 
