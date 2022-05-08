@@ -16,11 +16,12 @@ body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/318/original/banner_07.jpg?1650470021);
   text-align: center;
   color: white;
+  font-family: "Courgette", cursive;
 }
 
 .message {
   width: 550px;
-  font-family: "Courgette", cursive;
+  /* font-family: "Courgette", cursive; */
   margin: 5% auto 2%;
 }
 
@@ -37,7 +38,8 @@ body {
 .click-tiles {
   display: none;
   font-size: 1.2rem;
-  padding-top: 50px;
+  padding-top: 45px;
+  position: relative;
 }
 
 @media only screen and (max-width: 1325px) {
@@ -210,4 +212,3 @@ footer p {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-
